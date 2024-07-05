@@ -1,0 +1,20 @@
+{
+    "name": "joshua/simple-rest",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonius Joshua",
+            "email": "antoniusjoshua47@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6",
+        "illuminate/http": "^11.8"
+    }
+}
